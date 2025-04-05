@@ -1,0 +1,50 @@
+# === GLOBAL IGNORE ===
+.DS_Store
+*.log
+*.env
+.env.*
+*.local
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+
+# === PYTHON / BACKEND ===
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+backend/.coverage
+backend/htmlcov/
+backend/.vscode/
+backend/.idea/
+
+# If using poetry
+backend/poetry.lock
+
+# If using pipenv
+backend/Pipfile.lock
+
+# === NODE / FRONTEND ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vscode/
+frontend/.idea/
+frontend/.env.*
+
+# Optional lock files
+# Uncomment based on your package manager
+# frontend/package-lock.json
+# frontend/yarn.lock
+# frontend/pnpm-lock.yaml
